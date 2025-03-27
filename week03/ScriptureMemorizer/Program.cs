@@ -16,7 +16,7 @@ class Program
 
         while (continueGame)
         {
-            // Select a random scripture
+           
             Scripture selectedScripture = scriptures[random.Next(scriptures.Count)];
             selectedScripture.Display();
 
